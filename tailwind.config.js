@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        plainThin: ["Plain Thin"],
+        saolDispalyRegular: ["Saol Display Regular"]
+      }
+    },
   },
   plugins: [],
 }

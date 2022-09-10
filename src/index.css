@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+     font-family: 'Plain Thin';
+     src: url('../public/font/plainThin.otf');
+}
+
+@font-face {
+     font-family: 'Saol Display Regular';
+     src: url('../public/font/saolDisplayRegular.ttf');
+}
