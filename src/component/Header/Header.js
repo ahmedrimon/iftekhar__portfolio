@@ -1,11 +1,14 @@
 import React from 'react';
+import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
      return (
-          <section className="text-center mt-6 font-plainThin font-bold text-lg">
-               <Link className="" to="/">Home</Link>
-               <Link className="ml-6" to="/aboutus">About Us</Link>
+          <section className="h-16 text-center p-6 font-plainThin font-bold text-lg">
+               <nav>
+                    <Link className="hover:text-[#CC9933]" to="/">Home</Link>
+                    <Link className="hover:text-[#CC9933] ml-6" to="/aboutus">About Us</Link>
+               </nav>
           </section>
      );
 };
