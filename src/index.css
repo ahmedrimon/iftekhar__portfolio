@@ -11,3 +11,8 @@
      font-family: 'Saol Display Regular';
      src: url('../public/font/saolDisplayRegular.ttf');
 }
+
+@font-face {
+     font-family: 'Apercu';
+     src: url('../public/font/apercuItalic.otf');
+}

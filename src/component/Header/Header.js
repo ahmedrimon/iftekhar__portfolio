@@ -6,8 +6,8 @@ const Header = () => {
      return (
           <section className="h-16 text-center p-6 font-plainThin font-bold text-lg">
                <nav>
-                    <Link className="hover:text-[#CC9933]" to="/">Home</Link>
-                    <Link className="hover:text-[#CC9933] ml-6" to="/aboutus">About Us</Link>
+                    <Link to="/">Home</Link>
+                    <Link className="ml-4" to="/aboutus">About Us</Link>
                </nav>
           </section>
      );
